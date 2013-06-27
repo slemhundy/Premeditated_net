@@ -1,7 +1,8 @@
-/**
- * Created with JetBrains WebStorm.
- * User: Martin
- * Date: 6/10/13
- * Time: 6:56 PM
- * To change this template use File | Settings | File Templates.
- */
+$(document).ready(function() {
+    //$('#selected-plays > li').addClass('horizontal');
+    //$('#selected-plays li:not(.horizontal)').addClass('sub-level');
+    //$('a[href$=".pdf"]').addClass('pdflink');
+    //$('a[href^="http"][href*="henry"]').addClass('henrylink');
+    $('tr:nth-child(odd)').addClass('alt');
+    $('a[href^="mailto:"]').addClass('mailto');
+});
