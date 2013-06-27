@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #808080;
+    height: 100%;
+    width: 100%;
+    margin: -20px 0 0 0;
+    overflow: hidden;
+}
+
+.container {
+    background: url("site_images/fire_background.jpg");
+    background-position: -200px -200px;
+    width: 1266px;
+    height: 100%;
+    padding-bottom: 23px;
+    z-index: 1;
+    float: left;
+}
+
+.gradient {
+    float: right;
+    background: url("site_images/gray_gradient.jpg");
+    background-repeat: repeat-y;
+    width: calc(100% - 1266px);
+    height: 5000px;
+}
+
+.white {
+    background: url("site_images/white50.png");
+    border: 3px solid #cc0000;
+    width: 1200px;
+    height: calc(100% - 125px);
+    z-index: 2;
+    margin-top: 117px;
+    margin-left: 23px;
+}
+
+.content {
+    height: calc(100% - 85px);
+    padding: 4px 15px;
+    overflow: auto;
+    margin-top: 75px;
+}
+
+.logo {
+    position: absolute;
+    z-index: 3;
+    margin-left: -1255px;
+    margin-top: 20px;
+}
+
+.splat {
+    z-index: 100;
+    margin-top: -185px;
+    float: right;
+    margin-right: 12px;
+    position: relative;
+}
